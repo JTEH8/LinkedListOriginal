@@ -1,20 +1,18 @@
 #ifndef NODE_H
 #define NODE_H
 #include <iostream>
-
+#include "Student.h"
 using namespace std;
 
 class Node{
+    Student* NodeStudent;
+    Node* next;
 public:
-Node();
+Node(Student* newStudent);  
 ~Node();
-void setValue(int newValue);
-int getValue();
 void setNext(Node* newNext);
 Node* getNext();
-private:
-int value;
-Node* next;
+Student* getStudent();
 };
 
 #endif
