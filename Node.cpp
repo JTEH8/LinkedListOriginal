@@ -7,6 +7,7 @@ next = NULL;
 }
 
 Node::~Node(){
+cout << "You're Deleting ... " << endl;
 delete NodeStudent;
 next = NULL;
 }
