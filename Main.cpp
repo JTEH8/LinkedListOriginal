@@ -29,9 +29,7 @@ if(NumberTwo->getStudent() == Ian){
 }
 delete NumberOne;
 delete NumberTwo;
-if((NumberTwo == NULL) && (NumberOne == NULL)){
-    cout << "Deleting works!" << endl;
-}
+
 /*
 add(temp,1);
 print(temp, head);
